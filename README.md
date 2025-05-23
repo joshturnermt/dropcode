@@ -1,6 +1,6 @@
 # Dropcode
 
-Dropcode is a simple and lightweight code snippet manager. It's built with Tauri and Solid.js.
+Dropcode is a simple and lightweight code snippet manager. It's built with Tauri and Vue 3.
 
 Dropcode is local-only, you can use iCloud / Dropbox / Google Drive / etc. to sync your snippets.
 
