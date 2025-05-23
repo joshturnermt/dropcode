@@ -1,16 +1,12 @@
 import { defineConfig } from "vite"
-import solid from "vite-plugin-solid"
+import vue from "@vitejs/plugin-vue"
 import uno from "unocss/vite"
 import { presetIcons } from "unocss"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    solid({
-      typescript: {
-        onlyRemoveTypeImports: true,
-      },
-    }),
+    vue(),
     uno({
       presets: [presetIcons()],
     }),
