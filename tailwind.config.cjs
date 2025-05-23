@@ -4,7 +4,7 @@ const mainHeaderHeight = 40
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: ["./src/**/*.{ts,tsx}", "./index.html"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"], // Added .vue
   theme: {
     extend: {
       height: {
